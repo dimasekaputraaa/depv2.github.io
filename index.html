@@ -1,49 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hai!</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+	<script src="assets/js/index.js"></script>
 </head>
 <body class="bg-white">
-	<div class="container">
+	<div class="container-a">
 		<div class="row">
 			<div class="nav bg-white">
 				<a href="index.html"><p class="mlr text-dark-gray">/DEPV2</p></a>
 			</div>
 			<div class="content mlr">
-				<div class="intro text-dark-gray" style="width: 50vw">
+				<div class="intro text-dark-gray" id="intro">
 					<span class="name">Hello There, My Name Dimas</span><br>
-					<span class="prof">and I am a ui/ux designer</span>
+					<span class="prof">and I am a <span class="text text-dark-gray"></span></span>
+					<script>
+						var typing=new Typed(".text", {
+							strings: [ "ui/ux designer", "Graphics Designer", "Frontend Developer"],
+							typeSpeed: 100,
+							backSpeed: 40,
+							loop: true,
+						});
+					 </script>
+
 					<div class="minnav">
 						<ul>
-						  <li><a href="index.html" class="active">/Home</a></li>
-						  <li><a href="#">/project</a></li>
+						  <li><a href="#" class="active">/Home</a></li>
+						  <li><a href="project.html">/project</a></li>
 						  <li><a href="#">/skill</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="show">
+				<div class="show" id="show">
 					<div class="pro1">
-						<img src="assets/img/images.jpeg">
+						<img src="assets/img/images.jpeg" alt="gambar">
 						<p style="font-size: 16; line-height: 153%; padding-left: 13px;">Sample Project 1</p>
 						<p class="desc">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
 					</div>
 					<div class="pro2">
-						<img src="assets/img/images.jpeg">
+						<img src="assets/img/images.jpeg" alt="gambar">
 						<p style="font-size: 16; line-height: 153%; padding-left: 13px;">Sample Project 1</p>
 						<p class="desc">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
 					</div>
 					<div class="pro3">
-						<img src="assets/img/images.jpeg">
+						<img src="assets/img/images.jpeg" alt="gambar">
 						<p style="font-size: 16; line-height: 153%; padding-left: 13px;">Sample Project 1</p>
 						<p class="desc">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
 					</div>
 					<div class="pro4">
-						<img src="assets/img/images.jpeg">
+						<img src="assets/img/images.jpeg" alt="gambar">
 						<p style="font-size: 16; line-height: 153%; padding-left: 13px;">Sample Project 1</p>
 						<p class="desc">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.</p>
 					</div>

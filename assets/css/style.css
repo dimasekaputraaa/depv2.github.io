@@ -3,6 +3,18 @@
 	padding: 0px;
 	font-family: 'Bebas Neue', cursive;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: #666;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #232323;
+}
 /*awal*/
 .bg-black{
 	background-color: #000000;
@@ -32,7 +44,7 @@
 	padding: 0 5%;
 }
 /*batas*/
-.container{
+.container-a{
 	max-height: 100vh;
 	overflow-y: hidden;
 }
@@ -146,9 +158,139 @@ p.desc{
 	color: #858585;
 	padding: 0 13px;
 }
-@media only screen and (max-width: 608px) {
+.bar{
+	position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.proj1{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+}
+.proj2{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+}
+.proj3{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+}
+.proj4{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+}
+.proj5{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+}
+.proj img{
+	width: 400px;
+	height: 247px;
+	filter: grayscale(1);
+}
+.proj img:hover{
+	filter: grayscale(0);
+}
+.proj{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/*margin-top: 10%;*/
+}
+.bpr{
+	padding: 30px;
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width: 573px) {
+.content{
+	display: flex;
+	justify-content: center
+}
+.intro{
+	/*background-color: red;*/
+	padding-top: 70%;
+}
+.pro1{
+	display: none;
+}
+.pro2{
+	display: none;
+}
+.pro3{
+	display: none;
+}
+.pro4{
+	display: none;
+}
+.content span.name{
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 35px;
+	letter-spacing: 0.07em;
+}
+.content  span.prof{
+	padding-top: -10px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 133%;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 574px) {
+.content{
+	display: flex;
+	justify-content: center;
+}
+.intro{
+	/*background-color: red;*/
+	
 
 }
-@media only screen and (min-width: 768px) {
+.show{
+	/*background-color: blue;*/
+	
+}
+.pro1{
+	display: none;
+}
+.pro2{
+	display: none;
+}
+.pro3{
+	display: none;
+}
+.pro4{
+	display: none;
+}
+.show img{
+	width: 143px;
+	height: 147px;
+	filter: grayscale(1);
+}
+p.desc{
+	font-weight: 400; 
+	font-size: 7px; 
+	line-height: 153%;
+	color: #858585;
+	padding: 0 13px;
+}
+
+
+
+}
+@media only screen and (min-width: 828px) {
   
 }
