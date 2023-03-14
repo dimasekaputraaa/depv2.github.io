@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+/*awal*/
+.bg-black{
+	background-color: #000000;
+}
+.bg-white{
+	background-color: #FAFAFA;
+}
+.bg-light-gray{
+	background-color: #C0C0C0;
+}
+.bg-dark-gray{
+	background-color: #343434;
+}
+.text-black{
+	color: #000000;
+}
+.text-white{
+	color: #FAFAFA;
+}
+.text-light-gray{
+	color: #C0C0C0;
+}
+.text-dark-gray{
+	color: #343434;
+}
+.mlr{
+	padding: 0 5%;
+}
+/*batas*/
+.container{
+	max-height: 100vh;
+	overflow-y: hidden;
+}
+.nav{
+	height: 64px;
+	/*border: 1px solid black;*/
+}
+.nav p{
+	padding-top: 22px;
+	line-height: 19px;
+	letter-spacing: 0.035em;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+.active{
+	color: #343434;
+}
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 'intro show'
+}
+.intro{
+	/*background-color: red;*/
+	grid-area: intro;
+	padding-top: 40%;
+}
+.show{
+	/*background-color: blue;*/
+	grid-area: show;
+}
+.content span.name{
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 55px;
+	letter-spacing: 0.07em;
+}
+.content  span.prof{
+	padding-top: -10px;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 133%;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	float: left;
+	padding-right: 13px;
+}
+li a{
+	font-size: 16px;
+	color: #858585;
+}
+li a:hover{
+	color: #343434;
+}
+/*li a:hover:after{
+	content: "";
+	position: absolute;
+	background-color: #343434;
+	height: 3px;
+	width: 21px;
+	left: 0;
+	bottom: -6px;
+}*/
+.show{
+	display: flex;
+	flex-wrap: wrap;
+}
+.show img{
+	width: 243px;
+	height: 247px;
+	filter: grayscale(1);
+}
+.pro1{
+	width: 243px;
+	height: 392px;
+	background-color: white;
+	margin: 60px;
+}
+.pro2{
+	width: 243px;
+	height: 392px;
+	background-color: white;
+}
+.pro3{
+	width: 243px;
+	height: 392px;
+	background-color: white;
+	margin: 60px;
+}
+.pro4{
+	width: 243px;
+	height: 392px;
+	background-color: white;
+	
+}
+.intro{
+  /*position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+}
+p.desc{
+	font-weight: 400; 
+	font-size: 10px; 
+	line-height: 153%;
+	color: #858585;
+	padding: 0 13px;
+}
+@media only screen and (max-width: 608px) {
+
+}
+@media only screen and (min-width: 768px) {
+  
+}
